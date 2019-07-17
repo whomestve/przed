@@ -1,0 +1,91 @@
+body{
+  font-family: 'Dosis', sans-serif;
+
+}
+
+.navigationwrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logophoto{
+  width: 80px;
+  height: 80px;
+}
+.logo-text{
+  text-align: center;
+}
+
+.icon-text-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-photo{
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  text-align: center;
+}
+.icon-text{
+  font-size: 20px;
+  color:black;
+}
+.menu ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+}
+.menu ul li{
+  list-style-type: none;
+  padding: 10px 16px;
+}
+.background-image{
+  background: url("../assets/background.png");
+  height: 90vh;
+  max-height: 800px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+}
+.first-green-back{
+  background: #80ff00;
+  font-size: 40px;
+  padding: 5px 50px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+
+}
+.second-green-back{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #80ff00;
+  font-size: 90px;
+  font-weight: bold;
+  padding: 6px 50px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+.second-green-back p{
+  white-space: pre;
+}
