@@ -61,7 +61,7 @@ body{
   padding: 10px 16px;
 }
 #section1{
-  margin-bottom: 400px;
+  margin-bottom: 100px;
 }
 .background-image{
   background: url("../assets/background.png");
@@ -101,10 +101,82 @@ body{
 }
 .wave{
   position: absolute;
-  bottom: -100px;
+  bottom: -2px;
 }
 .wavephoto{
   width: 100%;
+}
+#section-news{
+  margin-bottom: 100px;
+}
+.news-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+.data-color-pink{
+  color:#FF69B4;
+}
+.data-color-blue{
+  color:blue;
+}
+.data-color-green{
+  color:green;
+}
+.data-color-yellow{
+  color:yellow;
+}
+.data-color-orange{
+  color:orange;
+}
+.pink-line{
+  width: 100%;
+  height: 5px;
+  background:#FF69B4;
+}
+.blue-line{
+  width: 100%;
+  height: 5px;
+  background:blue;
+}
+.green-line{
+  width: 100%;
+  height: 5px;
+  background:green;
+}
+.yelllow-line{
+  height: 5px;
+  background:yellow;
+  width: 100%;
+}
+.orange-line{
+  height: 5px;
+  background: orange;
+  width: 100%;
+
+}
+.more-wrap{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top:5px;
+}
+.more{
+  color:#FF69B4;
+}
+.more2{
+  color:blue;
+}
+.more3{
+  color:green;
+}
+.more4{
+  color:yellow;
+}
+.more5{
+  color:orange;
 }
 #about{
   margin-bottom: 200px;
