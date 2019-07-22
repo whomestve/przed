@@ -27,12 +27,12 @@
 
 		</div>
 
-		<div class="menu">
+		<div class="menu" >
 			<ul>
-				<li>
-					<div class="icon-text-wrap">
-						<img class="icon-photo" src="assets/home-icon.png">
-						<a class="icon-text" href="#">Start</a>
+				<li id="li-home-wrap">
+					<div class="icon-text-home-wrap">
+						<img class="icon-photo" src="assets/home-white.png">
+						<a class="icon-text-home" href="#">Start</a>
 					</div>
 				</li>
       	<li>
@@ -65,6 +65,15 @@
 						<a class="icon-text" href="#">Kontakt</a>
 					</div>
 				</li>
+				<li class="hamburger">
+					<div class="hamburger-wrap">
+						<a href="javascript:void(0);" class="hamburger-icon" onclick="myFunction()">
+    				<i class="fa fa-bars"></i>
+  					</a>
+
+					</div>
+				</li>
+
 
 
 
@@ -96,8 +105,8 @@
 
 <!-- Start News -->
 <section id="section-news">
-	<div class="container">
-		<div class="owl-carousel ">
+	<div class="container" style="height:400px">
+		<div class="owl-carousel "style="height:400px">
 
     	<div class="news-wrap">
 				<p class="data-color-pink">08.07.2019</p>
@@ -105,10 +114,10 @@
 				 Nam massa odio, pulvinar vitae risus at, luctus scelerisquenim.
 				Mauris pellentesque, velit in vestibulum pellentesque, e
 			rat nulla ultricies purus, et dignissim justo ante non risus
-			<div class="pink-line"></div>
-			<div class="more-wrap">
-				<a href="#" class="more">Więcej>></a>
-			</div>
+				<div class="pink-line"></div>
+				<div class="more-wrap">
+					<a href="#" class="more">Więcej>></a>
+				</div>
 		</div>
 
 		<div class="news-wrap">
@@ -366,7 +375,8 @@ rat nulla ultricies purus, et dignissim justo ante non risus
 	<script type="text/javascript">
 	$('.owl-carousel').owlCarousel({
 	loop:true,
-	margin:50,
+	margin:30,
+	height:2,
 	nav:false,
 	responsive:{
 			0:{
@@ -379,7 +389,9 @@ rat nulla ultricies purus, et dignissim justo ante non risus
 					items:3
 			}
 	}
+	/////////// responsive-navbar ////////
 })
+
 	</script>
 </body>
 
