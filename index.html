@@ -19,7 +19,7 @@
 <!-- Start Navigation  -->
 <nav>
 <div class="container">
-  <div class="navigationwrap">
+  <div class="navigationwrap" id="myMenu">
 
     <div class="logo">
 			<img class="logophoto"src="assets/logo-icon.png">
@@ -66,12 +66,9 @@
 					</div>
 				</li>
 				<li class="hamburger">
-					<div class="hamburger-wrap">
-						<a href="javascript:void(0);" class="hamburger-icon" onclick="myFunction()">
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
     				<i class="fa fa-bars"></i>
-  					</a>
-
-					</div>
+  				</a>
 				</li>
 
 
@@ -391,6 +388,15 @@ rat nulla ultricies purus, et dignissim justo ante non risus
 	}
 	/////////// responsive-navbar ////////
 })
+
+function myFunction() {
+var x = document.getElementById("myMenu");
+if (x.className === "navigationwrap") {
+	x.className += " responsive";
+} else {
+	x.className = "navigationwrap";
+}
+}
 
 	</script>
 </body>
