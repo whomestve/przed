@@ -121,13 +121,14 @@ body{
 }
 .text-green-div{
   margin:0px;
+  text-decoration: none !important;
 }
 .second-green-back p{
   white-space: pre;
 }
 .wave{
   position: absolute;
-  bottom: -2px;
+  bottom: -4px;
 }
 .wavephoto{
   width: 100%;
@@ -539,7 +540,7 @@ justify-content: space-around;
   height: 150px;
 
 }
-.logo-footer {
+.logo-footer ul li {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -816,20 +817,24 @@ background-size: cover;
   align-items: center;
 
 }
-
+.menu-footer ul{
+  padding: 0px;
+}
 .menu-footer ul li{
   list-style-type: none;
   color:white;
   font-size: 10px;
+
 }
 .menu-footer ul a{
   color: white;
 }
-
+.about-school-footer ul{
+  padding: 0px;
+}
 .about-school-footer ul li{
   list-style-type: none;
   font-size: 10px;
-
 }
 .about-school-footer ul a{
   color:white;
@@ -838,11 +843,17 @@ background-size: cover;
   visibility: hidden;
   font-size: 10px
 }
-
+.contact-footer ul{
+  padding: 0px;
+}
 .contact-footer ul li{
   list-style-type: none;
   color:white;
   font-size: 10px;
+
+}
+.logo-footer ul{
+  padding: 0px;
 }
 
 .logo-footer-img{
@@ -877,4 +888,9 @@ background-size: cover;
 }
 #text-under-footer{
   margin:0px;
+}
+.footer-li,.header-footer, #footer-blank{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }}
