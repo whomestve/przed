@@ -7,6 +7,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
 }
 
 .logo {
@@ -663,6 +664,7 @@ body {
   	padding: 6px 40px;
   	margin-right: 40px;
   }
+
   /* About us */
   	.about-text {
   		font-size: 20px;
@@ -675,14 +677,17 @@ body {
       font-size: 20px;
     }
     .images>img {
-      width: 140px;
+      width: 170px;
     }
     .team-desc {
-      font-size: 18px;
+      font-size: 20px;
     }
     .whole-team-text-link {
-      font-size: 18px;
+      font-size: 20px;
     }
+		.wave-down{
+			bottom: -4px;
+		}
     /* Groups */
     .text-under-zigzak {
   		font-size: 20px;
@@ -740,6 +745,7 @@ body {
 
 @media screen and (max-width:992px) {
 	/* Navigation */
+
 	.menu ul li {
 		height: 100%;
 		display: flex;
@@ -1024,7 +1030,58 @@ body {
   	font-weight: bold;
   	font-size: 24px;
   	white-space: nowrap;
-  }}
+  }
+	.images>img {
+		width: 130px;
+	}
+	.groups-level {
+  	width: 99%;
+  	height: 142.36px;
+  }
+  .dlc {
+  	width: 100%;
+  	height: 100%;
+  }
+	.animal-icon {
+		width: 33px;
+		height: 43px;
+	}
+	.animal-age {
+		font-size: 18px;
+	}
+	.animal-header {
+		font-size: 18px;
+	}
+	/* Footer */
+	.menu ul{
+		height: 177px;
+	}
+	.menu-footer ul li {
+		font-size: 15px;
+	}
+	.about-school-footer ul li {
+		font-size: 15px;
+	}
+	#footer-blank {
+		font-size: 15px;
+	}
+	.contact-footer ul li {
+		font-size: 15px;
+	}
+	.logo-footer-img {
+		width: 120px;
+		height: 120px;
+	}
+	#text-under-logo-footer {
+		font-size: 12px;
+	}
+	.header-footer {
+		font-size: 20px !important;
+	}
+	.under-footer {
+		font-size: 15px;
+	}
+}
 
 
 
