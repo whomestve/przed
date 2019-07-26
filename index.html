@@ -19,7 +19,7 @@
 <!-- Start Navigation  -->
 <nav>
 <div class="container">
-  <div class="navigationwrap" id="myMenu">
+  <div class="navigationwrap" >
 
     <div class="logo">
 			<img class="logophoto"src="assets/logo-icon.png">
@@ -27,7 +27,7 @@
 
 		</div>
 
-		<div class="menu" >
+		<div class="menu" id="menuid">
 			<ul>
 				<li id="li-home-wrap">
 					<div class="icon-text-home-wrap">
@@ -65,12 +65,10 @@
 						<a class="icon-text" href="#">Kontakt</a>
 					</div>
 				</li>
-
-
-
-
-
       </ul>
+			<a href="javascript:void(0);" class="icon-burger" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
 		</div>
 
   </div>
@@ -392,12 +390,12 @@ rat nulla ultricies purus, et dignissim justo ante non risus
 })
 
 function myFunction() {
-var x = document.getElementById("myMenu");
-if (x.className === "navigationwrap") {
-	x.className += " responsive";
-} else {
-	x.className = "navigationwrap";
-}
+  var x = document.getElementById("menuid");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
 
 	</script>

@@ -647,7 +647,7 @@ body {
 
 /* Start Responsive */
 
-.hamburger {
+.icon-burger {
 	display: none;
 }
 /* xlarge devices - screen width equal to or greater than 1200px */
@@ -918,50 +918,17 @@ body {
   .container{
     max-width: 1200px;
   }
-	.navigationwrap {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
+	.navigationwrap{
+		height: 100px;
 	}
-	.logophoto {
-		width: 50px;
-		height: 50px;
+	.menu ul li{
+		display: none;
 	}
-	.icon-text-home-wrap {
-		padding-bottom: 10px;
-		padding-left: 10px;
-		padding-right: 10px;
-		margin-top: 20px;
+	.icon-burger{
+		display: block;
 	}
-	.icon-photo {
-		width: 33px;
-		height: 33px;
-	}
-	.icon-text {
-		font-size: 14px;
-	}
-	.icon-text-home {
-		color: white;
-		font-size: 18px;
-	}
-	#li-home-wrap {
-		background: #b3ecff;
-		height: 100%;
-	}
-	.menu ul {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		margin: 0px;
-		height: 100%;
-    padding: 0px;
-    justify-content: space-between;
-    width: 100%;
-	}
-	.menu ul li {
-		list-style-type: none;
-		padding: 10px 16px;
-	}
+
+	/* END Navigation */
   .background-image {
   	height: 80vh;
   	max-height: 800px;
