@@ -23,15 +23,14 @@
 
     <div class="logo">
 			<img class="logophoto"src="assets/logo-icon.png">
-			<a class="logo-text">Miejsce Przedszkole<br> z Oddziałami Integracyjnymi nr 16 w Płocku</p>
+			<p class="logo-text">Miejsce Przedszkole<br> z Oddziałami Integracyjnymi nr 16 w Płocku</p>
 
 		</div>
 
-		<div class="menu">
-
-			<ul class="apple" >
+		<div class="menu" id="menuid">
+			<ul>
 				<li id="li-home-wrap">
-					<div class="icon-text-home-wrap" >
+					<div class="icon-text-home-wrap">
 						<img class="icon-photo" src="assets/home-white.png">
 						<a class="icon-text-home" href="#">Start</a>
 					</div>
@@ -67,24 +66,14 @@
 					</div>
 				</li>
       </ul>
+			<a href="javascript:void(0);" class="icon-burger" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
 
-		</div>
-		<div id="mySidebar" class="sidebar">
-  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  		<a href="#">Start</a>
-  		<a href="#">Aktualności</a>
-  		<a href="#">O nas</a>
-  		<a href="#">Grupy</a>
-			<a href="#">Dla rodziców</a>
-			<a href="#">Kontakt</a>
-		</div>
-		<div id="main">
-  		<button class="openbtn" onclick="openNav()">☰</button>
-		</div>
   </div>
 </div>
 </nav>
-
 
 <!-- End Navigation -->
 <!-- Start First Background -->
@@ -384,13 +373,12 @@ rat nulla ultricies purus, et dignissim justo ante non risus
 	height:2,
 	nav:false,
 	responsive:{
-		0:{
-				items:1
-		},
-			576:{
+			0:{
+					items:1
+			},
+			400:{
 					items:2
 			},
-
 			992:{
 					items:2
 			},
@@ -400,15 +388,16 @@ rat nulla ultricies purus, et dignissim justo ante non risus
 	}
 	/////////// responsive-navbar ////////
 })
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+
+function myFunction() {
+  var x = document.getElementById("menuid");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
 
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
 	</script>
 </body>
 
