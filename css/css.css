@@ -1121,6 +1121,11 @@ body {
 		width: 80px;
 	}
 }
+@media screen and (max-width:596px){
+	.wave-up{
+		top: -8.5px;
+	}
+}
 @media screen and (max-width:580px){
 	.wave-up{
 		top:-8.6px;
