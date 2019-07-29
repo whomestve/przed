@@ -8,7 +8,7 @@
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-
+<link rel="stylesheet" type="text/css" href="css/component.css">
 <link rel="stylesheet" type="text/css" href="css/css.css">
 
 
@@ -105,7 +105,7 @@
 </div>
 </section>
 <!-- Start Footer -->
-<div class="container">
+<div class="container whole-gallery-wrap">
 	<div class="invite-gallery-wrap">
 		<div class="invite-wrap">
 			<p>Zapraszamy do obejrzenia naszej galerii zdjęć</p>
@@ -113,67 +113,97 @@
 		</div>
 		<img  src="assets/straight-line.png">
 	</div>
+	<div id="grid-gallery" class="grid-gallery">
+		<section class="grid-wrap">
+			<ul class="grid">
+				<li class="grid-sizer"></li><!-- for Masonry column width -->
+				<li>
+					<figure>
+						<img class="pictures-gallery"src="assets/zgallery1.jpg" alt="img01"/>
 
-<div class="container">
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <img class="gallery-photo" src="assets/zgallery1.jpg" style="width:100%">
-  </div>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img class="pictures-gallery"src="assets/zgallery2.jpg" alt="img02"/>
 
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img class="gallery-photo" src="assets/zgallery2.jpg" style="width:100%">
-  </div>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img class="pictures-gallery"src="assets/zgallery3.jpg" alt="img03"/>
 
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img class="gallery-photo" src="assets/zgallery3.jpg" style="width:100%">
-  </div>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img class="pictures-gallery"src="assets/zgallery4.jpg" alt="img04"/>
 
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img class="gallery-photo" src="assets/zgallery4.jpg" style="width:100%">
-  </div>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img class="pictures-gallery"src="assets/zgallery5.jpg" alt="img05"/>
 
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img class="gallery-photo" src="assets/zgallery5.jpg" style="width:100%">
-  </div>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img class="pictures-gallery"src="assets/zgallery6.jpg" alt="img06"/>
 
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img class="gallery-photo" src="assets/zgallery6.jpg" style="width:100%">
-  </div>
+					</figure>
+				</li>
+			</ul>
+		</section><!-- // grid-wrap -->
+		<section class="slideshow">
+			<ul>
+				<li>
+					<figure>
 
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
+						<img class="pictures-gallery-big"src="assets/zgallery1.jpg" alt="img01"/>
+					</figure>
+				</li>
+				<li>
+					<figure>
 
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
+						<img class="pictures-gallery-big"src="assets/zgallery2.jpg" alt="img02"/>
+					</figure>
+				</li>
+				<li>
+					<figure>
 
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="assets/zgallery1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/zgallery2.jpg"style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/zgallery3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/zgallery4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/zgallery5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/zgallery6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-    </div>
-  </div>
+						<img class="pictures-gallery-big"src="assets/zgallery3.jpg"alt="img03"/>
+					</figure>
+				</li>
+				<li>
+					<figure>
 
-</div>
+						<img class="pictures-gallery-big"src="assets/zgallery4.jpg" alt="img04"/>
+					</figure>
+				</li>
+				<li>
+					<figure>
+
+						<img class="pictures-gallery-big"src="assets/zgallery5.jpg" alt="img05"/>
+					</figure>
+				</li>
+				<li>
+					<figure>
+
+						<img class="pictures-gallery-big"src="assets/zgallery6.jpg" alt="img06"/>
+					</figure>
+				</li>
+			</ul>
+			<nav>
+				<span class="icon nav-prev"></span>
+				<span class="icon nav-next"></span>
+				<span class="icon nav-close"></span>
+			</nav>
+			
+		</section><!-- // slideshow -->
+		<div class="clearfix"></div>
+	</div><!-- // grid-gallery -->
+
 </div>
 
 
@@ -234,6 +264,14 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"type="text/javascript"> </script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" type="text/ecmascript"> </script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/cbpGridGallery.js"></script>
+<script>
+	new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+</script>
 	<script type="text/javascript">
 	$('.owl-carousel').owlCarousel({
 	loop:true,
@@ -257,43 +295,7 @@
 	}
 	/////////// responsive-navbar ////////
 })
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
 
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
 	</script>
 </body>
 
