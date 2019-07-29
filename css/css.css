@@ -733,7 +733,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	position: absolute;
-	z-index: 10000;
+	z-index: 6;
 }
 .about-kinder-lines{
 	object-fit: contain;
@@ -771,6 +771,229 @@ body {
 }
 
 /* END KONCEPCJA */
+/* START CONTACT */
+	.contact-header{
+	text-align: center;
+	}
+	.contact-header p{
+		color:#aaaaaa;
+		font-size: 20px;
+	}
+	.contact-header span{
+		color:#333333;
+		font-size: 26px;
+	}
+	.contact-info{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: flex-start;
+		margin-top:80px;
+	}
+	.column-contact{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.column-contact i{
+		margin-bottom: 18px;
+	}
+	.column-contact p{
+		color:#333333;
+		font-size: 20px;
+	}
+	.contact-info .fa, .contact-info .fas{
+		font-size: 60px;
+	}
+
+	.contact-form-header{
+		display: flex;
+		flex-direction: row;
+		margin: 0px auto;
+		width: 60%;
+		margin-top:100px;
+		white-space: nowrap;
+	}
+	.contact-form-header b,.contact-form-header p {
+		color:#333333;
+		font-size: 20px;
+	}
+.contact-form-header b{
+	margin-right: 5px;
+}
+.contact-form-wrap{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 200px;
+}
+input::placeholder {
+  color: #a7b2bd;
+	padding-left: 8px;
+}
+textarea::placeholder {
+  color: #a7b2bd;
+	padding-left: 8px;
+}
+.contact-first-and-last{
+	width: 60%;
+	height: 40px;
+}
+.contact-email-and-phone{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+	margin-top:10px;
+}
+.form-email-and-tel{
+	width: calc(50% - 5px);
+	height: 40px;
+
+}
+.contact-textarea{
+	width: 60%;
+	margin-top:10px;
+}
+.contact-button-wrap{
+	width: 60%;
+	display: flex;
+	justify-content: flex-end;
+}
+.contact-button{
+	border-radius: 0px;
+	background: #f9d73e;
+	color:white;
+	padding: 5px 35px;
+	font-size: 20px;
+	margin-top:10px;
+}
+/* END CONTACT */
+/* START GALLERY */
+.invite-gallery-wrap{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.invite-wrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.invite-wrap p{
+	margin: 0px;
+	color: #666666;
+}
+.invite-wrap i {
+	padding-left: 6px;
+	color: #666666;
+}
+.invite-gallery-wrap > img{
+	width: 349.68px;
+	object-fit: contain;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+	object-fit: contain;
+	height: 100px;
+
+	overflow: hidden;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.gallery-photo{
+	height: 700px;
+	background-color: black;
+	object-fit: contain;
+}
+/* END GALLERY */
 /* xlarge devices - screen width equal to or greater than 1200px */
 
 /* Navigation */
