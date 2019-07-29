@@ -918,6 +918,24 @@ textarea::placeholder {
   clear: both;
 }
 /* END GALLERY */
+/* START NEWS */
+.whole-news-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.single-news-wrapper{
+	display: flex;
+	flex-direction: row;
+
+}
+.news-picture{
+	width: 100%;
+	height: 200px;
+	object-fit: contain;
+}
+/* END NEWS */
 /* xlarge devices - screen width equal to or greater than 1200px */
 
 /* Navigation */
