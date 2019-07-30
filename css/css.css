@@ -918,6 +918,7 @@ textarea::placeholder {
   clear: both;
 }
 /* END GALLERY */
+
 /* START NEWS */
 .whole-news-wrapper{
 	display: flex;
