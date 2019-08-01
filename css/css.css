@@ -1633,7 +1633,11 @@ line-height: 1.5;
 
 		flex-direction: column;
 	}
-}
+	.under-footer{
+		text-align: center;
+		margin: 0px;
+		height: 38px;
+}}
 @media screen and (max-width:644px){
 	.images>img {
 		width: 80px;
@@ -1688,15 +1692,7 @@ line-height: 1.5;
 		font-size: 19px !important;
 	}
 
-	.under-footer {
-		height: 27px;
-		font-size: 12px;
-		text-align: center;
-	}
 
-	#text-under-footer {
-		margin: 0px;
-	}
 }
 @media screen and (max-width:621px){
 .wave {
